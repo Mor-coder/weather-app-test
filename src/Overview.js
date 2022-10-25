@@ -1,8 +1,17 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactAnimatedWeather from "react-animated-weather/build/ReactAnimatedWeather";
+
 import "./App.css";
 
 export default function Overview() {
+  const defaults = {
+    icon: "CLEAR_DAY",
+    color: "black",
+    size: 64,
+    animate: true,
+  };
+
   let weatherData = {
     city: "Utrecht",
     temperature: 20,
@@ -23,6 +32,12 @@ export default function Overview() {
         <div className="col-sm-6">
           <div className="clearfix weather-temperature">
             <div className="float-left">
+              <ReactAnimatedWeather
+                icon={defaults.icon}
+                color={defaults.color}
+                size={defaults.size}
+                animate={defaults.animate}
+              />
               <strong>{weatherData.temperature}</strong>
               <span className="units">
                 <a href="/">°C</a> | <a href="/">°F</a>
