@@ -53,7 +53,7 @@ li:first-letter {
   animation: bg-animation 17s infinite alternate;
 }
 
-.overview {
+.Overview {
   margin-bottom: 20px;
 }
 
@@ -93,7 +93,7 @@ li:first-letter {
   color: rgb(33, 33, 33);
 }
 
-.weather-forecast-date {
+.forecast-day {
   font-size: 16px;
   opacity: 0.7;
   font-weight: bold;
