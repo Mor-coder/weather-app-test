@@ -9,7 +9,7 @@ export default function Footer() {
           <a
             href="https://github.com/Mor-coder/weather-app-test"
             target="_blank"
-            rel="nonreferrer"
+            rel="noreferrer"
           >
             Open-source code
           </a>
