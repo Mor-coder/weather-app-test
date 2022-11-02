@@ -5,9 +5,15 @@ export default function Footer() {
   return (
     <div className="Footer">
       <p>
-        <a href="https://github.com/Mor-coder/weather-app-test" target="_blank">
-          <small>Open-source code, by Mor Shmueli</small>
-        </a>
+        <small>
+          <a
+            href="https://github.com/Mor-coder/weather-app-test"
+            target="_blank"
+          >
+            Open-source code
+          </a>
+        </small>
+        , by Mor Shmueli
       </p>
     </div>
   );
