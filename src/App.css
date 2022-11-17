@@ -11,13 +11,15 @@
   font-size: 18px;
   font-weight: 100;
   line-height: 19px;
+  font-family: "Sono", sans-serif;
 }
 
 .Overview li:first-letter {
   text-transform: capitalize;
 }
 
-h1 {
+h2 {
+  font-family: "Sono", sans-serif;
   color: rgb(33, 33, 33);
   font-size: 26px;
   font-weight: 100;
@@ -33,14 +35,9 @@ h1 {
 .weather-app-wrapper .btn-primary {
   border-radius: 5px;
   background-color: transparent;
-  border: 1px solid #bdcfd6;
-  margin: 0 0 5px 0;
-}
-
-.weather-app-wrapper .btn-primary:hover {
-  color: rgb(33, 33, 33);
-  background-color: transparent;
   border: 1px solid rgb(33, 33, 33);
+  margin: 0 0 5px 0;
+  color: rgb(33, 33, 33);
 }
 
 .weather-app {
@@ -57,6 +54,7 @@ h1 {
 
 .Weather {
   margin-bottom: 20px;
+  font-family: "Sono", sans-serif;
 }
 
 .weather-temperature img {
@@ -120,4 +118,5 @@ h1 {
 p {
   color: #ff7c00;
   font-weight: 100;
+  font-family: "Sono", sans-serif;
 }
